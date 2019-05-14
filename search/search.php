@@ -8,6 +8,12 @@
     <link href="search/css/main.css" rel="stylesheet" />
     <script src="func.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <!-- Including jQuery is required. -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+   <!-- Including our scripting file. -->
+   <script type="text/javascript" src="script.js"></script>
+   <!-- Including CSS file. -->
+
   </head>
   <body>
     <div class="s01">
@@ -25,10 +31,9 @@
           </div>-->
         </div>
       </form>
-      <div id="resultat">
+        <div id="display"></div>
     </div>
-    <div style="margin-left:50px;display:none" id="loader">
-  <img  src="img/loader.gif" width="70px" height="70px"/>
+   
 </div>
   </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
